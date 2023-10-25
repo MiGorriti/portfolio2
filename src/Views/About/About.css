@@ -1,0 +1,72 @@
+/* Estilos generales para la sección de About */
+
+.resume-section {
+  padding: 50px 0;
+}
+
+.resume-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilos para el nombre */
+
+.resume-section-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.resume-section-content .text-primary {
+  color: #007bff; /* Puedes personalizar el color aquí */
+}
+
+/* Estilos para la información de contacto */
+
+.resume-section-content .subheading {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #666; /* Cambia el color si lo deseas */
+}
+
+.resume-section-content a {
+  text-decoration: none;
+  color: #007bff; /* Cambia el color si lo deseas */
+}
+
+/* Estilos para la descripción */
+
+.resume-section-content .lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #333; /* Cambia el color si lo deseas */
+}
+
+/* Estilos para los botones de descarga y enlaces de redes sociales */
+
+.resume-section-content .social-icons,
+.resume-section-content .social-icon,
+.resume-section-content .btn {
+  margin-top: 20px;
+}
+
+.resume-section-content .social-icon {
+  margin: 0 10px;
+  font-size: 1.5rem; /* Aumenta el tamaño de los íconos a tu preferencia */
+}
+
+.resume-section-content .btn {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.resume-section-content .btn-primary {
+  background-color: #030303; /* Cambia el color del botón */
+  border-color: #000000; /* Cambia el color del borde del botón */
+}
+
+.resume-section-content .btn-primary:hover {
+  background-color: #393939; /* Cambia el color del botón al pasar el ratón */
+  border-color: #29292a; /* Cambia el color del borde del botón al pasar el ratón */
+  color: #222222; /* Cambia el color del texto al pasar el ratón */
+}

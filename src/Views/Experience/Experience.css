@@ -1,0 +1,46 @@
+/* Estilos generales para la sección de Experience */
+
+.resumenes-section {
+  padding: 50px 0;
+}
+
+.resumenes-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Cambia a 'center' si prefieres alinear el contenido al centro */
+}
+
+/* Estilos para el título "Projects" */
+
+.resumenes-section-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cada proyecto o experiencia laboral */
+
+.resumenes-section-content .flex-grow-1 {
+  margin-bottom: 30px;
+}
+
+.resumenes-section-content h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.resumenes-section-content a {
+  text-decoration: none;
+  color: #007bff; /* Cambia el color si lo deseas */
+}
+
+.resumenes-section-content a:hover {
+  text-decoration: underline; /* Cambia el estilo de subrayado al pasar el ratón */
+}
+
+.resumenes-section-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Añade estilos adicionales según tus preferencias */

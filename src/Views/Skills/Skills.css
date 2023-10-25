@@ -1,0 +1,54 @@
+/* Estilos generales para la sección de Skills */
+
+.resumer-section {
+  padding: 50px 0;
+}
+
+.resumer-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilos para el título */
+
+.resumer-section-content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la lista de iconos */
+
+.dev-icons {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dev-icons li {
+  margin: 10px; /* Espaciado entre iconos */
+  font-size: 2rem; /* Tamaño de los iconos */
+  color: #007bff; /* Color de los iconos */
+}
+
+/* Estilos para la lista de Workflow */
+
+.fa-ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.fa-ul li {
+  margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+  font-size: 1.25rem; /* Tamaño del texto de la lista */
+}
+
+.fa-ul .fa-li {
+  width: 2rem;
+  text-align: center;
+  color: #007bff; /* Color de los iconos de la lista */
+}
+
+/* Estilos adicionales según tus preferencias */

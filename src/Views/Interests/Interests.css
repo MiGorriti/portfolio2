@@ -1,0 +1,32 @@
+/* Estilos generales para la sección de Interests */
+
+.resumena-section {
+  padding: 50px 0;
+}
+
+.resumena-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Cambia a 'center' si prefieres alinear el contenido al centro */
+}
+
+/* Estilos para el título "Interests" */
+
+.resumena-section-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenido de intereses */
+
+.resumena-section-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.resumena-section-content p.mb-0 {
+  margin-bottom: 30px;
+}
+
+/* Añade estilos adicionales según tus preferencias */

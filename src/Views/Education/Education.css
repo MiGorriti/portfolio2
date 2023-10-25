@@ -1,0 +1,42 @@
+/* Estilos generales para la sección de Education */
+
+.resumen-section {
+  padding: 50px 0;
+}
+
+.resumen-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Cambia a 'center' si prefieres alinear el contenido al centro */
+}
+
+/* Estilos para el título "Education" */
+
+.resumen-section-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cada experiencia educativa */
+
+.resumen-section-content .flex-grow-1 {
+  margin-bottom: 30px;
+}
+
+.resumen-section-content h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.resumen-section-content .subheading {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #666; /* Cambia el color si lo deseas */
+}
+
+.resumen-section-content .text-primary {
+  font-size: 1.2rem;
+  color: #007bff; /* Cambia el color si lo deseas */
+}
+
+/* Añade estilos adicionales según tus preferencias */

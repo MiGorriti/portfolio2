@@ -1,0 +1,40 @@
+/* Estilos generales para la barra de navegación */
+
+.navbar {
+  background-color: #007bff; /* Cambia el color de fondo */
+}
+
+.navbar .navbar-brand {
+  color: #fff; /* Cambia el color del texto del logotipo */
+}
+
+.navbar .navbar-toggler {
+  border-color: #fff; /* Cambia el color del borde del botón de alternar */
+  color: #fff; /* Cambia el color del icono de alternar */
+}
+
+/* Estilos para la imagen de perfil (ajusta según sea necesario) */
+
+.navbar .img-profile {
+  width: 60px; /* Ajusta el tamaño de la imagen */
+  height: 60px; /* Ajusta el tamaño de la imagen */
+  border: 2px solid #fff; /* Añade un borde a la imagen */
+  border-radius: 50%; /* Haz que la imagen sea redonda */
+}
+
+/* Estilos para los elementos del menú */
+
+.navbar .navbar-nav .nav-item {
+  margin: 0 15px; /* Espaciado entre elementos de menú */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff; /* Cambia el color del texto del enlace */
+  font-size: 1.2rem; /* Ajusta el tamaño del texto del enlace */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff; /* Cambia el color del texto del enlace al pasar el ratón */
+}
+
+/* Añade estilos adicionales según tus preferencias */

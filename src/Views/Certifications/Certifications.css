@@ -1,0 +1,51 @@
+/* Estilos generales para la sección Certifications */
+
+.epsilon {
+  padding: 50px 0;
+}
+
+.epsilon-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Cambia a 'center' si prefieres alinear el contenido al centro */
+}
+
+/* Estilos para el título "Certifications" */
+
+.epsilon-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de certificaciones */
+
+.epsilon-content .fa-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.epsilon-content .fa-li {
+  position: relative;
+  top: 2px;
+}
+
+.epsilon-content .fa-li svg {
+  width: 1.2em; /* Ajusta el tamaño del ícono según tus preferencias */
+  margin-right: 5px;
+}
+
+/* Estilos para el texto de las certificaciones */
+
+.epsilon-content li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Estilos para los íconos de trofeo */
+
+.epsilon-content .text-warning {
+  color: #f0ad4e; /* Cambia el color si lo deseas */
+}
+
+/* Añade estilos adicionales según tus preferencias */
