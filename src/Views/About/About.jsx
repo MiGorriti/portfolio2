@@ -51,7 +51,7 @@ function About() {
           </Link>
           <Link
             className="btn btn-primary"
-            to="public/pdf/cv1.pdf"
+            to={`${process.env.PUBLIC_URL}/pdf/cv1.pdf`}
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
@@ -59,7 +59,7 @@ function About() {
           </Link>
           <Link
             className="btn btn-primary"
-            to="public/pdf/cv2.pdf"
+            to={`${process.env.PUBLIC_URL}/pdf/cv2.pdf`}
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
