@@ -49,22 +49,22 @@ function About() {
           >
             <FontAwesomeIcon icon={faGithub} />
           </Link>
-          <a
+          <Link
             className="btn btn-primary"
-            href="public/pdf/cv1.pdf"
+            to="public/pdf/cv1.pdf"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
             Download English Resume
-          </a>
-          <a
+          </Link>
+          <Link
             className="btn btn-primary"
-            href="public/pdf/cv2.pdf"
+            to="public/pdf/cv2.pdf"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
             Download Spanish Resume
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -36,7 +36,7 @@ function Experience() {
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">
             <h3 className="mb-0">Cars Selling App</h3>
-            <Link to="https://rumrum-nyd5.vercel.app/home" target="_blank">
+            <Link to="https://rumrum-nyd5.vercel.app/" target="_blank">
               Click here to Visit. (be patient, backend may take a few seconds
               to load)
             </Link>
