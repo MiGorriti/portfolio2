@@ -4,7 +4,7 @@ import { faTrophy } from "@fortawesome/free-solid-svg-icons"; // Importa el íco
 import "./Certifications.css";
 function Certifications() {
   return (
-    <section className="epsilon">
+    <section id="certifications" className="epsilon">
       <div className="epsilon-content">
         <h2 className="mb-5">Certifications</h2>
         <ul className="fa-ul mb-0">

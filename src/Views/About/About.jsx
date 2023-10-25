@@ -5,7 +5,7 @@ import "./About.css";
 import { Link } from "react-router-dom";
 function About() {
   return (
-    <section className="resume-section">
+    <section id="about" className="resume-section">
       <div className="resume-section-content">
         <h1 className="mb-0">
           Miguel <span className="text-primary">Gorriti</span>

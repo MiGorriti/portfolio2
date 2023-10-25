@@ -2,7 +2,7 @@ import React from "react";
 import "./Interests.css";
 function Interests() {
   return (
-    <section className="resumena-section">
+    <section id="interests" className="resumena-section">
       <div className="resumena-section-content">
         <h2 className="mb-5">Interests</h2>
         <p>

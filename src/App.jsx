@@ -8,26 +8,33 @@ import Skills from "./Views/Skills/Skills";
 import Certifications from "./Views/Certifications/Certifications";
 import Education from "./Views/Education/Education";
 import Interests from "./Views/Interests/Interests";
-import "bootstrap/dist/css/bootstrap.min.css"; // Importa los estilos de Bootstrap
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Importa los scripts de Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Portfolio from "./Views/Porfolio/Portfolio";
 
 function App() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
+        <Navigation scrollToSection={scrollToSection} />
         <Portfolio />
-        <Navigation />
         <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Education" element={<Education />} />
-          <Route path="/Interests" element={<Interests />} />
-          <Route path="/Certifications" element={<Certifications />} />
+          <Route path="/#about" element={<About />} />
+          <Route path="/#experience" element={<Experience />} />
+          <Route path="/#skills" element={<Skills />} />
+          <Route path="/#education" element={<Education />} />
+          <Route path="/#interests" element={<Interests />} />
+          <Route path="/#certifications" element={<Certifications />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

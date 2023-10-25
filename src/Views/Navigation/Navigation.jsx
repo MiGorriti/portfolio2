@@ -22,32 +22,56 @@ function Navigation() {
       <div id="navbarResponsive" className="collapse navbar-collapse">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/about">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#about"
+              onClick={() => scrollToSection("about")}
+            >
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/experience">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#experience"
+              onClick={() => scrollToSection("experience")}
+            >
               Projects
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/education">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#education"
+              onClick={() => scrollToSection("education")}
+            >
               Education
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/skills">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#skills"
+              onClick={() => scrollToSection("skills")}
+            >
               Skills
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/interests">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#interests"
+              onClick={() => scrollToSection("interests")}
+            >
               Interests
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/certifications">
+            <Link
+              className="nav-link js-scroll-trigger"
+              to="/#certifications"
+              onClick={() => scrollToSection("certifications")}
+            >
               Certifications
             </Link>
           </li>

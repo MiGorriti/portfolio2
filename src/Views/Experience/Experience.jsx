@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Experience.css";
 function Experience() {
   return (
-    <section className="resumenes-section">
+    <section id="experience" className="resumenes-section">
       <div className="resumenes-section-content">
         <h2 className="mb-5">Projects</h2>
 
