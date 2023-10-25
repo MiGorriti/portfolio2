@@ -51,7 +51,7 @@ function About() {
           </Link>
           <Link
             className="btn btn-primary"
-            to="/pdf/cv1.pdf"
+            to="/pdf/Miguel_Gorriti_En_Cv.pdf"
             target="_blank"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
@@ -60,7 +60,7 @@ function About() {
           </Link>
           <Link
             className="btn btn-primary"
-            to="/pdf/cv2.pdf"
+            to="/pdf/Miguel_Gorriti_Es_Cv.pdf"
             target="_blank"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
