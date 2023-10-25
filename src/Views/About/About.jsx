@@ -52,6 +52,7 @@ function About() {
           <Link
             className="btn btn-primary"
             to="/pdf/cv1.pdf"
+            target="_blank"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
@@ -60,6 +61,7 @@ function About() {
           <Link
             className="btn btn-primary"
             to="/pdf/cv2.pdf"
+            target="_blank"
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
