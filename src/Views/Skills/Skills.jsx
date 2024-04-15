@@ -19,22 +19,27 @@ function Skills() {
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon icon={faHtml5} /> <p>HTML5</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faCss3Alt} />
+            <p>CSS3</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faJsSquare} />
+            <p>JavaScript</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faReact} />
+            <p>React</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faNodeJs} />
+            <p>NodeJs</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faNpm} />
+            <p>NPM/Jest</p>
           </li>
         </ul>
         <div className="subheading mb-3">Workflow</div>

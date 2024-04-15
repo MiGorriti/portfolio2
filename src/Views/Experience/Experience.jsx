@@ -11,11 +11,10 @@ function Experience() {
           <div className="flex-grow-1">
             <h3 className="mb-0">House Rental App</h3>
             <Link
-              to="https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home"
+              to="https://github.com/MiGorriti/PF2LavenganzaFront"
               target="_blank"
             >
-              Click here to Visit. (be patient, backend may take a few seconds
-              to load)
+              Github code
             </Link>
             <p>
               Led a team of 6 developers in the development of a short-term
@@ -36,9 +35,8 @@ function Experience() {
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">
             <h3 className="mb-0">Cars Selling App</h3>
-            <Link to="https://rumrum-nyd5.vercel.app/" target="_blank">
-              Click here to Visit. (be patient, backend may take a few seconds
-              to load)
+            <Link to="https://github.com/MiGorriti/rumrum" target="_blank">
+              Github code
             </Link>
             <p>
               In collaboration with fellow bootcamp peers, we set out to apply
@@ -57,6 +55,9 @@ function Experience() {
           <div className="flex-shrink-0"></div>
         </div>
         <h3 className="mb-0">Recipe App</h3>
+        <Link to="https://github.com/MiGorriti/Pifood" target="_blank">
+          Github code
+        </Link>
         <p>
           In this project, I developed a recipe website, actively participating
           in both the frontend and backend development. My primary goal was to
