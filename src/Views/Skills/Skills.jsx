@@ -7,8 +7,13 @@ import {
   faReact,
   faNodeJs,
   faNpm,
+  faPython,
+  faBootstrap,
+  faAngular,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faDatabase } from "@fortawesome/free-solid-svg-icons";
+// import { faPostman } from "@fortawesome/free-brands-svg-icons";
+
 import "./Skills.css";
 
 function Skills() {
@@ -19,27 +24,44 @@ function Skills() {
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
-            <FontAwesomeIcon icon={faHtml5} /> <p>HTML5</p>
+            <FontAwesomeIcon icon={faHtml5} />{" "}
+            <p style={{ fontSize: "large" }}>HTML5</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faCss3Alt} />
-            <p>CSS3</p>
+            <p style={{ fontSize: "large" }}>CSS3</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faJsSquare} />
-            <p>JavaScript</p>
+            <p style={{ fontSize: "large" }}>JavaScript</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faReact} />
-            <p>React</p>
+            <p style={{ fontSize: "large" }}>React</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faNodeJs} />
-            <p>NodeJs</p>
+            <p style={{ fontSize: "large" }}>NodeJs</p>
           </li>
           <li className="list-inline-item">
             <FontAwesomeIcon icon={faNpm} />
-            <p>NPM/Jest</p>
+            <p style={{ fontSize: "large" }}>NPM/Jest</p>
+          </li>
+          <li className="list-inline-item">
+            <FontAwesomeIcon icon={faPython} />
+            <p style={{ fontSize: "large" }}>Python</p>
+          </li>
+          <li className="list-inline-item">
+            <FontAwesomeIcon icon={faBootstrap} />
+            <p style={{ fontSize: "large" }}>Bootstrap</p>
+          </li>
+          <li className="list-inline-item">
+            <FontAwesomeIcon icon={faDatabase} />
+            <p style={{ fontSize: "large" }}>PostgresSQL</p>
+          </li>
+          <li className="list-inline-item">
+            <FontAwesomeIcon icon={faAngular} />
+            <p style={{ fontSize: "large" }}>Angular</p>
           </li>
         </ul>
         <div className="subheading mb-3">Workflow</div>

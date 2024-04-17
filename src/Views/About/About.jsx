@@ -4,15 +4,17 @@ import {
   faLinkedinIn,
   faGithub,
   faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons"; // Importa los íconos de LinkedIn y GitHub
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; // Importa los íconos de LinkedIn y GitHub
 import "./About.css";
 import { Link } from "react-router-dom";
+import profileImage from "../../../public/img/pruebita.png";
 function About() {
   return (
     <section id="about" className="resume-section">
       <div className="resume-section-content">
         <img
-          src="public\img\pruebita.png"
+          src={profileImage}
           alt="Profile"
           className="profile-image"
           style={{ width: "300px", height: "2%", marginBottom: "-200px" }}
@@ -21,15 +23,16 @@ function About() {
           Miguel <span className="text-primary">Gorriti</span>
         </h1>
         <div className="subheading mb-5">
-          Buenos Aires · Argentina, GMT-3 · +54 9 (3445) 43-3378 ·{" "}
-          <FontAwesomeIcon icon={faWhatsapp} />
+          Buenos Aires · Argentina, GMT-3 · +54 9 (3445) 43-3378 · <div></div>
           <Link
-            href="https://wa.me/+5493445433378"
+            to="https://wa.me/+5493445433378"
             className="social-icon"
             target="_blank"
-            rel="noreferrer"
-          ></Link>
-          <Link to="mailto:miguegorriti@gmail.com">miguegorriti@gmail.com</Link>{" "}
+            style={{ color: "green" }}
+          >
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </Link>
+          <Link to="mailto:miguegorriti@gmail.com">miguegorriti@gmail.com</Link>
         </div>
         <Link
           className="btn btn-primary"
@@ -37,7 +40,7 @@ function About() {
           target="_blank"
           style={{ color: "white", marginTop: "-40px" }}
         >
-          Email me!
+          <FontAwesomeIcon icon={faEnvelope} /> Email me!
         </Link>
         <p className="lead mb-5">
           I'm a junior Fullstack developer oriented to front end. Passionate
@@ -61,7 +64,6 @@ function About() {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />{" "}
-            {/* Usa FontAwesomeIcon para el ícono */}
           </Link>
           <Link
             to="https://github.com/MiGorriti"
@@ -87,7 +89,7 @@ function About() {
             download="CV_Miguel_Gorriti.pdf"
             style={{ color: "white" }}
           >
-            Download Spanish Resume
+            Descargar Curriculum en Español
           </Link>
         </div>
       </div>
